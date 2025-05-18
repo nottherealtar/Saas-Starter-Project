@@ -1,0 +1,43 @@
+{
+  "name": "nextjs-scalable-starter",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "test": "jest",
+    "prisma": "prisma"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "next-auth": "latest",
+    "zustand": "latest",
+    "@tanstack/react-query": "latest",
+    "@prisma/client": "latest",
+    "tailwindcss": "latest",
+    "radix-ui-react-primitive": "latest",
+    "clsx": "latest"
+  },
+  "devDependencies": {
+    "@types/jest": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "jest": "latest",
+    "prettier": "latest",
+    "typescript": "latest",
+    "@testing-library/react": "latest",
+    "@testing-library/jest-dom": "latest",
+    "ts-jest": "latest",
+    "prisma": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest"
+  }
+}
